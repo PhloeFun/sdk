@@ -1,0 +1,16 @@
+{
+  "name": "phloe-protocol",
+  "version": "0.1.0",
+  "description": "Private transaction relay for Solana with QUIC-level acceleration and adaptive routing",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "send": "node scripts/sendTransaction.js"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.91.0",
+    "quic": "^0.1.0",
+    "dotenv": "^16.3.1",
+    "uuid": "^9.0.0"
+  }
+}
